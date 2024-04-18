@@ -9,7 +9,7 @@ function App() {
     {/*<Rendering/>*/}
     {/*<DataFetching/>*/}
     {/*<UserOnline/>*/}
-    <MousePointer/>
+    {/*<MousePointer/>*/}
     </div>
   )
 }

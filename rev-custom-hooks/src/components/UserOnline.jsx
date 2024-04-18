@@ -8,6 +8,7 @@ function useIsOnline() {
     window.addEventListener("online", ()=>{setIsOnline(true)});
 
     window.addEventListener("offline", ()=>{setIsOnline(false)});
+
   },[])
 
   return isOnline;

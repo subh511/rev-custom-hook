@@ -12,7 +12,7 @@ function useMousePointer(){
         window.addEventListener('mousemove', handleMouseMove);
 
        return ()=>{
-        window.addEventListener('mousemove', handleMouseMove);
+        window.removeEventListener('mousemove', handleMouseMove);
         }
     },[])
     return pointer;
