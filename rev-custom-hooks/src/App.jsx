@@ -5,7 +5,7 @@ function App() {
   return(
     <div>
     {/*<Rendering/>*/}
-    <DataFetching/>
+    {/*<DataFetching/>*/}
     </div>
   )
 }
