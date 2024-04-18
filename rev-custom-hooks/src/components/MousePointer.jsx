@@ -14,13 +14,16 @@ function useMousePointer(){
        return ()=>{
         window.addEventListener('mousemove', handleMouseMove);
         }
-    })
+    },[])
+    return pointer;
 }
 
 export default function MousePointer() {
+
+    let pointer = useMousePointer()
   return (
     <div>
-    MousePointer
+    your pointer on x axis:{pointer.x} and y axis:{pointer.y}
      </div>
   )
 }

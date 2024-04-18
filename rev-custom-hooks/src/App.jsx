@@ -1,4 +1,5 @@
 import DataFetching from "./components/DataFetching";
+import MousePointer from "./components/MousePointer";
 import Rendering from "./components/Rendering";
 import UserOnline from "./components/UserOnline";
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div>
     {/*<Rendering/>*/}
     {/*<DataFetching/>*/}
-    <UserOnline/>
+    {/*<UserOnline/>*/}
+    <MousePointer/>
     </div>
   )
 }
