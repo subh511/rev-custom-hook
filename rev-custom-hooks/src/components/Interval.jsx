@@ -2,19 +2,19 @@
 
 import { useEffect,useState } from "react";
 
-function useSetInterval(fn,timer){
+function useInterval(fn,time){
 
     useEffect(()=>{
         setInterval(()=>{
             fn()
-        },timer)
-    },[fn,timer])
+        },time)
+    },[])
 }
 export default function Interval() {
 
     const [count, setCount] = useState(0);
 
-    useSetInterval(() => {
+    useInterval(() => {
         setCount(c => c + 1);
       }, 1000)
 
